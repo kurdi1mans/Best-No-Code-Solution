@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting OSS internal tools with self-hosting, data connectors, and low-code flexibility.
 - **Pricing snapshot:** Free OSS/self-host; cloud and enterprise plans add SSO, RBAC depth, audit, and support.
 - **Notable integrations:** SQL databases, REST/GraphQL, Elasticsearch, S3, automation flows, webhooks.
+
+- **Evaluation notes:**
+  - Open-source internal tool builder; supports external data sources with caching, but lacks opinionated data modeling.
+  - RBAC and SSO available on paid tiers; self-host enables more control though audits/logging are basic.
+  - Works well for CRUD dashboards; performance depends on datasource latency and deployment sizing.

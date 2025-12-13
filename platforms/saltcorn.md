@@ -13,3 +13,8 @@
 - **Best for:** Makers wanting an OSS stack to build CRUD-style web apps on Postgres without starting from scratch.
 - **Pricing snapshot:** Free OSS/self-host; hosted plans available with support and backups.
 - **Notable integrations:** Plugin system (auth/providers/fields), REST API, webhooks, scheduled tasks, Zapier/Make via API.
+
+- **Evaluation notes:**
+  - Open-source app builder with Postgres backend; supports custom plugins and data modeling but limited guardrails.
+  - Security depends on configuration; roles exist but auditing/SSO require custom setup or plugins.
+  - Good for small custom apps when you want OSS control; scaling and UX polish need engineering effort.

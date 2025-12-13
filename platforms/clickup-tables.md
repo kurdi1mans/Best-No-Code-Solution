@@ -13,3 +13,8 @@
 - **Best for:** Teams standardized on ClickUp who need simple data tables linked to tasks without adding another tool.
 - **Pricing snapshot:** Free tier; paid tiers add users, automation limits, advanced permissions, and integrations.
 - **Notable integrations:** ClickUp API, native integrations (Slack/Drive/etc.), Zapier/Make, webhooks.
+
+- **Evaluation notes:**
+  - Tables sit inside ClickUp work management; schema flexibility is limited and not ideal for relational data.
+  - Permissions mirror ClickUp spaces/folders; audit history exists but field-level security is thin.
+  - Integrations rely on ClickUp API and automations; better suited for lightweight lists than system-of-record needs.

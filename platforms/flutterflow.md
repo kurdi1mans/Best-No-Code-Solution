@@ -13,3 +13,8 @@
 - **Best for:** Startups and teams needing cross-platform apps fast, with ability to extend via Flutter code.
 - **Pricing snapshot:** Free tier; paid adds custom domains, team seats, higher build limits, and advanced features.
 - **Notable integrations:** Firebase, Supabase, REST/GraphQL APIs, Stripe, Algolia, custom actions in Dart, app store deploys.
+
+- **Evaluation notes:**
+  - Visual Flutter builder generating code; supports Firebase/REST/SQL connectors but complex schemas need manual code.
+  - Version control via Git export is possible; RBAC limited to project sharing, so enterprise governance is DIY.
+  - Produces performant native builds if optimized; state management and offline behavior need deliberate setup.

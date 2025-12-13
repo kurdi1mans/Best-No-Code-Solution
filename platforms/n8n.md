@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting automation with self-hosting, custom logic, and budget control.
 - **Pricing snapshot:** Free self-host; cloud priced by executions and features.
 - **Notable integrations:** HTTP/Webhook nodes, code nodes, databases, message queues, community nodes.
+
+- **Evaluation notes:**
+  - Self-hostable automation with nodes for many services; type-safety is loose and complex flows need testing.
+  - Open-core model: SSO, RBAC, audit in enterprise; self-host gives full data control and extensibility.
+  - Scaling requires queue/workers and external DB/Redis; good for developers comfortable operating infrastructure.

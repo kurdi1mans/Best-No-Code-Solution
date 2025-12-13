@@ -13,3 +13,8 @@
 - **Best for:** Branded mobile apps with standard patterns (list/detail, bookings, memberships).
 - **Pricing snapshot:** Free builder; paid tiers for custom domain, publishing, and higher usage.
 - **Notable integrations:** Stripe, external collections via API, Zapier/Make, custom actions.
+
+- **Evaluation notes:**
+  - Mobile-first builder with its own datastore; external collections via REST work but schema/versioning controls are light.
+  - Role-based access and login patterns are built-in; row-level security and audit trails are limited for regulated use.
+  - Publishing to app stores is streamlined, yet debugging, performance tuning, and offline reliability trail native stacks.

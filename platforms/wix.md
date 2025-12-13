@@ -13,3 +13,8 @@
 - **Best for:** Small business sites needing bookings, simple shops, or fast launch without design help.
 - **Pricing snapshot:** Tiered by site type and commerce features; upsell for storage/bandwidth and apps.
 - **Notable integrations:** App market, email marketing, payments, Zapier via connectors.
+
+- **Evaluation notes:**
+  - Drag-and-drop site builder with Velo for code; data collections exist but are basic for complex schemas.
+  - Security/roles are simple; SSO and compliance features are limited outside enterprise programs.
+  - App market is broad; performance varies by template/plugins and heavy scripts can affect Core Web Vitals.

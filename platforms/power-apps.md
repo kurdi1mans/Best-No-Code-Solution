@@ -13,3 +13,8 @@
 - **Best for:** Organizations on Microsoft 365 building internal apps rapidly with existing data and identity.
 - **Pricing snapshot:** M365-inclusive features for some scenarios; per-app and per-user plans for broader use; additional costs for external users and premium connectors.
 - **Notable integrations:** Dataverse, SharePoint, SQL, Dynamics, Azure services, custom connectors, Power Automate flows, Teams embedding.
+
+- **Evaluation notes:**
+  - Integrates deeply with Microsoft 365/Dataverse; supports model-driven apps and canvas apps with connectors.
+  - Strong enterprise controls: DLP, environments, ALM pipelines, SSO/SCIM, audit, and row-level security via Dataverse.
+  - Licensing and capacity add complexity; performance depends on Dataverse connectors and delegation limits.

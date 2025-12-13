@@ -13,3 +13,8 @@
 - **Best for:** Early-stage SaaS needing quick auth + billing + CRM/support without assembling a stack.
 - **Pricing snapshot:** Revenue-based tiers with low entry cost; higher tiers add seats/features.
 - **Notable integrations:** JavaScript widgets, REST API, Webflow/Next.js examples, Stripe, Zapier/Make, webhooks.
+
+- **Evaluation notes:**
+  - Bundles auth, billing, CRM, and support; great for early SaaS but opinionated data model limits customization.
+  - Roles and permissions are basic; SSO/advanced security are not core, so compliance is light.
+  - Works best when you adopt its workflows; migration away requires data exports and re-implementing billing/support.

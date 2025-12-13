@@ -13,3 +13,8 @@
 - **Best for:** Product/knowledge teams needing connected research, tasks, and databases in one workspace.
 - **Pricing snapshot:** Free tier for small teams; paid adds users, automation limits, and advanced permissions.
 - **Notable integrations:** API, webhooks, Zapier/Make, browser extensions, two-way sync with some tools.
+
+- **Evaluation notes:**
+  - Flexible relational model good for product knowledge graphs; lacks strict constraints and multi-environment promotion.
+  - Permissions cover spaces/types/fields; audit trails exist but enterprise controls (SSO/SCIM) require higher tiers.
+  - Integrations via syncs and API are improving; performance holds for mid-sized teams but not for warehouse-scale data.

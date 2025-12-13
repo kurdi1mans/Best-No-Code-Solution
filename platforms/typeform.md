@@ -13,3 +13,8 @@
 - **Best for:** Lead capture, surveys, onboarding flows where user experience matters.
 - **Pricing snapshot:** Free basic tier; paid tiers increase responses, branching, branding, and integrations.
 - **Notable integrations:** HubSpot, Slack, Google Sheets, Webhooks, Zapier/Make, embeds.
+
+- **Evaluation notes:**
+  - Conversational form UX with logic jumps; backend data model is simple and not suited for heavy relational needs.
+  - Enterprise tier offers SSO, HIPAA, and audit; standard plans have limited governance controls.
+  - Webhooks/API enable downstream workflows; performance is fine at scale though pricing scales with responses.

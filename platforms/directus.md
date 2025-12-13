@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting a headless CMS/admin/API on top of their SQL databases with open-source control.
 - **Pricing snapshot:** Free OSS; cloud pricing by projects/usage with enterprise support options.
 - **Notable integrations:** REST/GraphQL, webhooks/flows, SSO, storage adapters, custom extensions, Zapier/Make via API.
+
+- **Evaluation notes:**
+  - Headless data layer atop SQL databases; models map to your schema with migrations handled externally.
+  - Granular roles and permissions; self-host enables compliance control, but ops and backups are your responsibility.
+  - Extensible via hooks/extensions; performant when paired with tuned SQL, yet real-time/websocket features require sizing.

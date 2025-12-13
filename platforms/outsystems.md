@@ -13,3 +13,8 @@
 - **Best for:** Enterprises needing governed, integrated apps faster than custom builds with centralized ops.
 - **Pricing snapshot:** Free personal edition; commercial licenses priced per app/endpoints/environments with enterprise support.
 - **Notable integrations:** SAP/Oracle/SQL connectors, REST/GraphQL, Azure AD/Okta SSO, background jobs, DevOps pipelines.
+
+- **Evaluation notes:**
+  - Full-stack low-code with strong integration to enterprise systems; supports on-prem/private cloud with CI/CD tooling.
+  - Mature governance: SSO/SCIM, fine-grained permissions, logging, and controlled promotion between environments.
+  - Proprietary runtime and licensing create lock-in; performance is good when apps are optimized but footprint is heavy.

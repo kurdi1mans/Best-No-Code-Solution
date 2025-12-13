@@ -13,3 +13,8 @@
 - **Best for:** Internal tools, directories, client portals tied to Airtable/Sheets.
 - **Pricing snapshot:** Free for small apps; paid tiers add users, rows, actions, and branding.
 - **Notable integrations:** Airtable/Sheets, Zapier/Make, webhooks, OpenAI actions, simple API calls.
+
+- **Evaluation notes:**
+  - Builds from Sheets/Excel/BigQuery/Glide Tables; relational features exist but migrations and constraints are minimal.
+  - Role/row-level access via filters is available; audit/versioning features are basic.
+  - Good mobile/PWA output; large datasets or heavy computed columns can impact sync speed and offline behavior.

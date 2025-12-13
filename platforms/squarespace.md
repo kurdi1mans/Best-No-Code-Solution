@@ -13,3 +13,8 @@
 - **Best for:** Portfolios, simple commerce, and brand sites where opinionated design is acceptable.
 - **Pricing snapshot:** Personal/business tiers for sites; commerce tiers add checkout and transaction fees.
 - **Notable integrations:** Acuity scheduling, email campaigns, basic memberships, embeds, Zapier via forms.
+
+- **Evaluation notes:**
+  - Strong templates and commerce add-ons; database/extensibility options are minimal beyond forms and limited APIs.
+  - Roles and site permissions are simple; SSO and granular auditing are absent.
+  - Hosting/CDN are reliable for marketing sites; complex integrations need custom code or external tools.

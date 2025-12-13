@@ -13,3 +13,8 @@
 - **Best for:** Teams needing Airtable-like UX with self-hosting, higher limits, or open-source extensibility.
 - **Pricing snapshot:** Community free/self-host; paid cloud for seats, automations, SSO, support.
 - **Notable integrations:** REST API, webhook triggers, plugin system, n8n/Make/Zapier connectors.
+
+- **Evaluation notes:**
+  - Open-source Airtable-like with Postgres backend; strong for self-hosted schemas and basic views, weaker for complex workflows.
+  - Permissions improving (row-level in premium); SSO/audit in enterprise; self-host gives data residency control.
+  - API and plugin model are growing; automations and integrations remain lighter than Airtable/SmartSuite.

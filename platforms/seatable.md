@@ -13,3 +13,8 @@
 - **Best for:** Teams needing Airtable-like UX with higher data limits and self-hosting/governance options.
 - **Pricing snapshot:** Community self-hosted free; paid cloud/on-prem tiers add users, automations, and support.
 - **Notable integrations:** REST API, webhooks, Python scripts, Zapier/Make connectors, plugins marketplace.
+
+- **Evaluation notes:**
+  - Spreadsheet-database with self-host and SaaS; supports large tables and attachments with API access.
+  - Permissions include row-level and sharing links; enterprise edition adds audit/SSO.
+  - Performs well for data management; automation ecosystem is smaller than Airtable/SmartSuite.

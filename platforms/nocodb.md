@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting Airtable-like UI on top of their own database with open-source control.
 - **Pricing snapshot:** Free OSS; paid cloud for hosting, SSO, audit, and enterprise features.
 - **Notable integrations:** REST/GraphQL APIs, webhooks, Zapier/Make connectors, plugins, external DB connectors.
+
+- **Evaluation notes:**
+  - Maps existing SQL tables to spreadsheet views; great for data staying in your DB, but migrations are up to you.
+  - Row-level permissions and audit features are evolving; self-host provides residency and backup control.
+  - API generation is handy; performance hinges on underlying SQL tuning and connection pooling.

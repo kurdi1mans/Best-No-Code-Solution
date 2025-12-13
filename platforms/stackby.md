@@ -13,3 +13,8 @@
 - **Best for:** SMB teams needing database-style tracking with periodic data pulls and generous limits.
 - **Pricing snapshot:** Free tier; paid adds rows, automations, API calls, and workspaces.
 - **Notable integrations:** Native API connectors (YouTube/SEMrush/etc.), REST API, webhooks, Zapier/Make.
+
+- **Evaluation notes:**
+  - Database/spreadsheet with API pulls; good for marketing ops but lacks strict constraints and migrations.
+  - Permissions are workspace/table level; row-level security and audits are limited.
+  - Native connectors reduce need for external ETL; scalability and polish trail Airtable/SmartSuite.

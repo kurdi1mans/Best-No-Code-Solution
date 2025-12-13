@@ -13,3 +13,8 @@
 - **Best for:** Startup/creator forms, waitlists, feedback, and lightweight payments with minimal setup.
 - **Pricing snapshot:** Free core features; paid for branding removal, advanced logic, workspaces, and payments.
 - **Notable integrations:** Webhooks, Zapier/Make, Stripe payments, Notion/Airtable sync via connectors, embeds.
+
+- **Evaluation notes:**
+  - Lightweight form builder with good UX; backend is simple and best for intake rather than complex workflows.
+  - Limited roles and permissions; data retention/compliance options are basic.
+  - Embeds and integrations via webhooks/Make/Zapier cover common needs; high-volume submissions rely on external storage.

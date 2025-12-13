@@ -13,3 +13,8 @@
 - **Best for:** Marketing sites, landing pages, and content-heavy sites where design quality matters.
 - **Pricing snapshot:** Site plans start low for basic sites; CMS/business tiers add items and traffic; workspaces priced per seat.
 - **Notable integrations:** Native CMS API, Zapier/Make, Memberstack/Outseta for auth/memberships, e-commerce beta, embeds.
+
+- **Evaluation notes:**
+  - Visual CMS/site builder with clean output; CMS collections have limits and lack complex relational modeling.
+  - Hosting includes SSL/CDN; roles and audit are basic unless on Enterprise.
+  - Great for marketing sites; dynamic app-like behavior needs custom code or external backends.

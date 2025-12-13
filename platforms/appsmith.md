@@ -13,3 +13,8 @@
 - **Best for:** Internal dashboards/CRUD apps where open-source and self-hosting are priorities.
 - **Pricing snapshot:** Free OSS; cloud/self-host business tiers for SSO, audit, advanced RBAC.
 - **Notable integrations:** Databases, REST/GraphQL, SaaS connectors, JS libraries, Git sync, webhooks.
+
+- **Evaluation notes:**
+  - Self-host or cloud; connects to DBs/REST/GraphQL with JS logic; no-first-class migrations or model enforcement.
+  - RBAC, audit, and SSO land in business/enterprise tiers; OSS gives control but governance is DIY.
+  - Performance is good for CRUD dashboards; heavy data grids and complex JS may need caching/pagination tuning.

@@ -13,3 +13,8 @@
 - **Best for:** Startups needing a backend for mobile/web apps without managing infrastructure.
 - **Pricing snapshot:** Free dev tier; paid for higher records/storage, environments, and collaboration.
 - **Notable integrations:** REST/GraphQL, webhooks, OAuth providers, external DB connectors, Zapier/Make.
+
+- **Evaluation notes:**
+  - No-code backend with Postgres and auto-generated APIs; good schema tools but complex migrations need care.
+  - Auth, RBAC, and row-level policies supported; audit/logging exist though customer-managed keys are limited.
+  - Scales well for typical SaaS backends; vendor-managed infrastructure means some lock-in to their runtime.

@@ -13,3 +13,8 @@
 - **Best for:** Online stores needing reliable checkout and plug-and-play commerce stack.
 - **Pricing snapshot:** Basic/Shopify/Advanced tiers; Plus for enterprise; transaction fees without Shopify Payments.
 - **Notable integrations:** App store, POS, Shopify Functions, sales channels, Zapier/Make, Hydrogen/Storefront API.
+
+- **Evaluation notes:**
+  - Opinionated commerce platform; strong product/checkout APIs but custom data models require metafields/apps.
+  - PCI compliance and security handled by Shopify; granular staff permissions exist but multi-tenant/B2B complexity needs Plus.
+  - App ecosystem is deep; performance and scale are solid on hosted infra though locked to Shopify architecture.

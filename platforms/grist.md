@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting an open-source, programmable spreadsheet/DB hybrid with self-hosting and Python formulas.
 - **Pricing snapshot:** Free OSS/self-host; Grist Cloud with paid tiers for users, storage, and collaboration features.
 - **Notable integrations:** REST API, webhooks, Python formulas, Zapier/Make connectors (via API), embeddings.
+
+- **Evaluation notes:**
+  - Spreadsheet-database hybrid with Python formulas; strong for relational-lite modeling but lacks formal constraints/migrations.
+  - Permissions and snapshots exist; OSS/self-host gives control, yet SSO/audit require extra setup.
+  - Performance is solid for medium datasets; real-time collaboration is good though API ecosystem is smaller than Airtable.

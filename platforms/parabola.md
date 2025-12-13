@@ -13,3 +13,8 @@
 - **Best for:** Operations/data teams cleaning and syncing datasets across SaaS tools without code.
 - **Pricing snapshot:** Free trial; paid tiers based on credits/rows and scheduling frequency.
 - **Notable integrations:** CSV/HTTP, Shopify, HubSpot, Salesforce, Google Sheets/BigQuery, Snowflake, S3, webhooks.
+
+- **Evaluation notes:**
+  - Visual ETL/dataflow for ops teams; works well for CSV/API ingestion and transformations but not real-time CDC.
+  - Limited governance: user roles and run logs exist, yet SSO/audit depth are enterprise-only.
+  - Pricing by row/run can climb with large datasets; scaling heavy workflows may need chunking and offloading to warehouses.

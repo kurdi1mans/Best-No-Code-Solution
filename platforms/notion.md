@@ -13,3 +13,8 @@
 - **Best for:** Internal documentation, lightweight project/CRM tracking, and starter knowledge bases.
 - **Pricing snapshot:** Free for individuals; team tiers for guests, permissions, and higher limits.
 - **Notable integrations:** Notion API, Zapier/Make, synced databases, third-party site builders (Super, Potion), AI features.
+
+- **Evaluation notes:**
+  - Flexible doc+database workspace; lacks strict constraints, transactions, or complex relational queries.
+  - Permissions are per-page/database with simple roles; audit/SSO/SCIM live on enterprise plans.
+  - API and sync are improving; performance can lag on very large workspaces and offline support is partial.

@@ -13,3 +13,8 @@
 - **Best for:** Membership sites, paid communities, and course portals on Webflow or static sites needing fast auth/payments.
 - **Pricing snapshot:** Free dev; paid tiers by active members with features like SSO, advanced roles, and white-labeling.
 - **Notable integrations:** Webflow, custom JS SDK, Stripe, Zapier/Make, webhooks, simple user APIs.
+
+- **Evaluation notes:**
+  - Drop-in auth/payments for JAMstack sites; good for gated content but limited for complex tenant hierarchies.
+  - Supports JWTs, hooks, and webhooks; audit, RBAC depth, and SSO/SCIM are minimal.
+  - Stripe dependency drives pricing; scalability is fine for SMB memberships but enterprise compliance is light.

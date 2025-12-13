@@ -13,3 +13,8 @@
 - **Best for:** Teams needing secure, customizable admin panels fast without building UI from scratch.
 - **Pricing snapshot:** Free trial; paid tiers per user/environment with enterprise options for SSO and audit.
 - **Notable integrations:** Postgres/MySQL/SQL Server/MongoDB, REST/GraphQL via agent, custom actions, charts, webhooks.
+
+- **Evaluation notes:**
+  - Admin UI layer over your DB/API; data stays in your backend with an agent, preserving control but adding maintenance.
+  - Strong granular permissions, audit logs, and approvals; good compliance story when hosted in your infra.
+  - Works best for CRUD/back-office; heavy custom UI patterns may require code extensions and performance tuning of agent queries.

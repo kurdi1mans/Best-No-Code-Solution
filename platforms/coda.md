@@ -13,3 +13,8 @@
 - **Best for:** Knowledge bases, lightweight CRMs/trackers, and team hubs combining docs + data.
 - **Pricing snapshot:** Free tier; paid for automation limits, packs, and granular permissions; enterprise for SSO/GRC.
 - **Notable integrations:** Packs (Salesforce/Jira/Slack/etc.), APIs, webhooks, automations, Zapier/Make connectors.
+
+- **Evaluation notes:**
+  - Doc-first with relational tables; great for flexible schemas but lacks strict constraints and transactional guarantees.
+  - Packs extend functionality; governance features (SSO, audit, doc locking) available on enterprise tiers.
+  - Performance can lag with very large docs; sync tables ease integrations but API rate limits require design care.

@@ -13,3 +13,8 @@
 - **Best for:** Quick SaaS-to-SaaS automations and business workflows without engineering.
 - **Pricing snapshot:** Free for single-step and low volume; paid tiers for multi-step, webhooks, higher task limits.
 - **Notable integrations:** Thousands of app connectors, webhooks, email parser, tables, storage, AI steps.
+
+- **Evaluation notes:**
+  - Massive connector library; lacks typed payload validation so brittle APIs need formatter/Code steps.
+  - Reliability features include retries, versioning, and execution logs; data residency/SSO available on higher tiers only.
+  - Task-based billing can spike with chatty triggers; high-scale use may need digest/batch patterns or transfer to ETL tools.

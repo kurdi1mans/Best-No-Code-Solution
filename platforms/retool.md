@@ -13,3 +13,8 @@
 - **Best for:** Internal dashboards, admin panels, and CRUD apps on existing databases/APIs.
 - **Pricing snapshot:** Free for small teams; paid per user for permissions, versioning, and environments.
 - **Notable integrations:** Databases, GraphQL/REST, S3/GCS, Python/JS runtimes, Git sync, Zapier/Make via webhooks.
+
+- **Evaluation notes:**
+  - Fast internal tool builder with strong data connectors; typed queries and transformers help but schema enforcement is external.
+  - Enterprise governance is solid (RBAC, SSO/SCIM, audit logs, environments, versioning); self-host option for data control.
+  - Performance is good for dashboards/CRUD; complex client logic may need custom components or JS queries.

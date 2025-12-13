@@ -13,3 +13,8 @@
 - **Best for:** Teams wanting Airtable-style flexibility for projects/CRM/ops with predictable limits and built-in automation.
 - **Pricing snapshot:** Free tier; paid plans expand records, storage, automations, and permissions.
 - **Notable integrations:** Native automations, Zapier/Make, webhooks, API, forms, external sync connectors in progress.
+
+- **Evaluation notes:**
+  - Airtable-like with richer project/record templates; relational modeling is flexible but lacks strict constraints/transactions.
+  - Permissions include roles, field-level controls, and record assignments; audit trails are built-in on paid tiers.
+  - Automations and dashboards are strong for ops teams; API and integrations are growing but smaller than Airtable.

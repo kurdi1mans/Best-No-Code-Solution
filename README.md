@@ -3,7 +3,7 @@
 Curated markdown notes on popular no-code/low-code platforms with quick pros/cons for each.
 
 ## Structure
-- `platforms/index.md` — grouped links to all platform notes.
+- [platforms/index.md](platforms/index.md) — grouped links to all platform notes.
 - `platforms/*.md` — individual platform assessments (summary, strengths, limitations, best-fit, pricing snapshot, integrations).
 
 ## Contributing

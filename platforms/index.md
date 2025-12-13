@@ -22,6 +22,13 @@
 - [Baserow](baserow.md)
 - [Backendless](backendless.md)
 - [Xano](xano.md)
+- [SmartSuite](smartsuite.md)
+- [SeaTable](seatable.md)
+- [NocoDB](nocodb.md)
+- [Rows](rows.md)
+- [Stackby](stackby.md)
+- [Fibery](fibery.md)
+- [ClickUp Tables](clickup-tables.md)
 
 ## Automation & Integration
 - [Zapier](zapier.md)
@@ -38,6 +45,7 @@
 
 ## Knowledge & Docs
 - [Notion](notion.md)
+- [Coda](coda.md)
 
 ## Membership & SaaS Toolkit
 - [Memberstack](memberstack.md)

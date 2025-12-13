@@ -2,23 +2,20 @@
 
 Use these criteria to assess each no-code/low-code platform. Do not start scoring yet.
 
-- **Fit & modeling**
-  - **Use case fit**
-    - Primary strengths: web app, mobile, internal tools, automation, CMS, forms
-    - Poor-fit scenarios and constraints
+- **Data Types Support**
   - **Data model & limits**
     - Supported data types/relations; schema flexibility
     - Row/storage/throughput limits and API quotas
     - Import/export and migration tooling
-  - **Views & UI flexibility**
-    - View types: grid/kanban/calendar/Gantt/gallery/map/hierarchical/tree/etc.
-    - Column/view customization: filters/sorting/grouping, conditional formatting
-    - Responsive behavior and custom views/components
+  - **Files & attachments**
+    - Upload/storage limits and supported types
+    - CDN/performance and regional storage
+    - Versioning, inline preview, access controls, virus scanning
+- **Application logic & integration**
   - **Transactional integrity**
     - ACID support and isolation levels
     - Concurrency control and locking
     - Rollback/undo for financial/banking-grade consistency
-- **Logic, integrations, and files**
   - **Logic & workflows**
     - Workflow builders, formulas, scripting model
     - Triggers/background jobs/schedulers
@@ -27,19 +24,18 @@ Use these criteria to assess each no-code/low-code platform. Do not start scorin
     - Native connectors, webhook/API quality
     - SDKs/plugins and custom code options
     - Rate limits and throttling
-  - **Files & attachments**
-    - Upload/storage limits and supported types
-    - CDN/performance and regional storage
-    - Versioning, inline preview, access controls, virus scanning
+  - **Deployment targets**
+    - Web, mobile (native/PWA), desktop, or API-only
+    - App store readiness and packaging paths
 - **Security, identity, and compliance**
-  - **Access control**
-    - Roles and row/field-level permissions
-    - Sharing/link settings and environment scoping
-    - Builder control over data access policy
   - **Authentication**
     - Native auth, SSO/OIDC/SAML, SCIM, MFA
     - Session management, user provisioning/lifecycle
     - Passwordless/social options
+  - **Access control**
+    - Roles and row/field-level permissions
+    - Sharing/link settings and environment scoping
+    - Builder control over data access policy
   - **Encryption**
     - In-transit and at-rest defaults
     - Key management (KMS/BYOK) and data isolation
@@ -51,7 +47,7 @@ Use these criteria to assess each no-code/low-code platform. Do not start scorin
     - Certifications (SOC2, ISO, HIPAA), DPAs, region choices
     - Data portability and retention controls
     - Residency/configuration options (self-host/SaaS regions)
-- **Performance & delivery**
+- **Performance & operations**
   - **Performance & reliability**
     - Runtime performance, caching/CDN, cold starts
     - Scaling behavior and multi-tenant isolation
@@ -67,15 +63,16 @@ Use these criteria to assess each no-code/low-code platform. Do not start scorin
     - SaaS vs. self-host options; data residency and backups/exports
     - Vendor lock-in and migration paths
     - Infrastructure choices and sandboxing environments
-  - **Deployment targets**
-    - Web, mobile (native/PWA), desktop, or API-only
-    - App store readiness and packaging paths
-- **UX and front-end**
+- **UI/UX**
+  - **Views & UI flexibility**
+    - View types: grid/kanban/calendar/Gantt/gallery/map/hierarchical/tree/etc.
+    - Column/view customization: filters/sorting/grouping, conditional formatting
+    - Responsive behavior and custom views/components
   - **Design & UX flexibility**
     - Theming and component quality
     - Responsive controls and layout systems
     - Accessibility support and localization/i18n
-- **Commercials and ecosystem**
+- **Commercials & ecosystem**
   - **Pricing & TCO**
     - Plan model (seats/usage/records/ops) and overage risks
     - Required add-ons and hidden costs

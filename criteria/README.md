@@ -2,191 +2,177 @@
 
 Use these prompts to assess each no-code/low-code platform. Keep notes concise and vendor-neutral; no scoring yet.
 
-- Data & Modeling
-	- Data model limits
-		- Record/field limits
-		- Schema evolution and migrations
-		- Bulk operations
-		- Import/export (CSV/JSON/API)
-	- Data types
-		- Text, number, decimal
-		- Regex and validation rules
-		- Rich content
-		- Attachments (single/multi)
-		- Images and files
-		- Geo types
-		- Array/object structures
-		- Enums
-	- Data quality
-		- Constraints and uniqueness
-		- Referential integrity
-		- Dedupe/merge support
-	- Computation
-		- Formula language depth (string/date/array)
-		- Cross-table lookups
-		- Reusable functions/components
-		- Debugging/tracing
-	- Evaluation behavior
-		- Recalculation timing
-		- Dependency handling
-		- Eventual vs. strong consistency impacts on UX and reports
-- Logic, Workflows, Automation
-	- Builders and paradigms
-		- Visual vs. code-first scripting
-		- Branching/looping complexity
-		- State management
-	- Triggers and human steps
-		- Background jobs and schedulers
-		- SLAs for approvals/handoffs
-	- Automation reliability
-		- Retries
-		- Idempotency
-		- Dead-letter handling
-		- Run observability
-	- Transactionality
-		- ACID/isolation
-		- Concurrency/locking
-		- Rollback/undo options
-		- Compensation patterns
-- Integrations & Extensibility
-	- Connectors and APIs
-		- Native connectors
-		- REST/GraphQL quality
-		- Webhooks
-		- Rate limits/quotas
+- Strategy & Business Fit
+	- Target outcomes and scope
+		- Priority use cases and personas
+		- Fit-gap vs. existing systems and processes
+		- KPI alignment and measurability
+	- Product maturity
+		- Release cadence and roadmap transparency
+		- Reference customers/industries
+		- Partner ecosystem depth
+- Architecture & Extensibility
+	- Platform architecture
+		- Multi-tenant vs. single-tenant options
+		- Modularity and plugin model
+		- API-first posture and versioning
+	- Extension model
+		- SDKs/plugins/components
+		- Middleware/hooks/events
+		- Packaging/sharing across environments or orgs
+- Data & Information Management
+	- Data modeling
+		- Record/field limits, schema evolution, migrations
+		- Relationships, lookups, rich data types (geo, array/object)
+		- Constraints, uniqueness, referential integrity
+	- Data lifecycle
+		- Import/export quality (CSV/JSON/API), bulk operations
+		- Retention, archival, purge and legal hold
+		- Backups, restores, portability
+	- Computation and rules
+		- Formula/rule language breadth and reuse
+		- Tracing/debugging and error handling
+		- Evaluation timing, dependency resolution, consistency model
+- Integration & Interoperability
+	- Connectors and interfaces
+		- Native connectors coverage
+		- REST/GraphQL quality, webhooks, event streams
 		- Auth patterns (API keys/OAuth/service accounts)
-	- Data movement
-		- Sync cadence
+	- Data movement patterns
+		- Batch sync and scheduling
 		- Change data capture
-		- Event streaming/message bus support
-	- Extensibility
-		- SDKs/plugins
-		- Custom components/actions
-		- Middleware hooks
-		- Packaging/sharing across projects
+		- Message bus/queue support and idempotency
+	- External extensibility
+		- Embedding in other apps
+		- Custom actions/jobs on external runtimes
+		- Marketplace/template reuse
 - Identity & Access
 	- Authentication
-		- Native auth
-		- SSO/OIDC/SAML
-		- SCIM
-		- MFA
-		- Passwordless/social
-		- Delegated/consent flows
-	- Session and lifecycle
-		- Provisioning
-		- Suspension
-		- Expiration
-		- Session management
+		- Native users
+		- SSO/OIDC/SAML and SCIM
+		- MFA, passwordless/social, delegated consent
 	- Authorization
-		- RBAC/ABAC
-		- Row/field-level controls
-		- Share links and scoping
-		- Approval flows for elevated access
-- Security & Compliance
-	- Encryption and isolation
-		- In-transit/at-rest defaults
-		- Key management (KMS/BYOK)
-		- Tenant isolation
-	- Governance and guardrails
-		- Audit logs
-		- Backups/retention
-		- Policy enforcement
-		- Secret handling
-		- Incident posture
-		- Admin controls for citizen devs
-	- Compliance and residency
-		- SOC2/ISO/HIPAA
-		- DPAs
-		- Data residency choices
-		- Portability/retention controls
-		- Self-host/SaaS region options
-	- Resilience
-		- DR/BCP posture
-		- Backups/restores
-		- RPO/RTO clarity
-		- Cross-region redundancy
-- Performance & Operations
-	- Runtime and scale
-		- Latency
-		- Caching/CDN
-		- Cold starts
-		- Scaling behavior and multi-tenant isolation
-		- Noisy-neighbor protections
-	- Reliability
-		- Uptime/SLA track record
-		- Maintenance windows
-		- Throttling behavior under load
-		- Offline/degeneration behavior
-	- Observability
-		- Built-in analytics/logs
-		- Tracing/error monitoring
-		- Alerting hooks and exports
-	- Hosting and control
-		- SaaS vs. self-host
-		- Infra choices
-		- Sandbox environments
-		- Vendor lock-in
-		- Migration paths/tooling
-- UI/UX & App Experience
-	- View types
-		- Grid/kanban/calendar/Gantt/gallery/map/tree
-		- Filters/sort/group
-		- Conditional formatting
-	- Layout and theming
-		- Responsive controls
-		- Component quality
-		- Styling/theme options/design tokens
+		- RBAC/ABAC models
+		- Row/field-level controls and masking
+		- Sharing links, scopes, time-bound access
+	- Session and lifecycle
+		- Provisioning/deprovisioning
+		- Session management and expiry
+		- Delegation/approval flows for elevated access
+- Security, Privacy, Compliance
+	- Core security
+		- Encryption in-transit/at-rest, key management (KMS/BYOK)
+		- Tenant isolation and data boundary controls
+		- Secrets handling and secure storage
+	- Privacy and compliance
+		- GDPR/CCPA/SOC2/ISO/HIPAA posture and DPAs
+		- Data residency/sovereignty options
+		- Data subject rights, retention/erasure controls
+	- Governance and risk
+		- Audit trails and evidence export
+		- Policy enforcement and guardrails for makers
+		- Incident response and vulnerability management
+- Workflow, Automation, App Dev
+	- Development model
+		- Visual builders vs. code-first
+		- Branching/looping/state patterns
+		- Component reuse and design systems
+	- Automation runtime
+		- Triggers/schedulers/background jobs
+		- Retries, idempotency, dead-letter handling
+		- Run observability and debugging
+	- Transactionality
+		- ACID/isolation guarantees
+		- Concurrency/locking behavior
+		- Rollback/undo and compensating actions
+- User Experience & Channels
+	- Interface capabilities
+		- View types (grid/kanban/calendar/Gantt/gallery/map/tree)
+		- Filtering/sorting/grouping and conditional formatting
+		- Responsive layouts and adaptive components
+	- Branding and accessibility
+		- Theming/styling/design tokens
 		- Localization/i18n
-		- Accessibility support
-	- Surfaces
-		- Web
+		- Accessibility support (WCAG)
+	- Channels and devices
+		- Web and desktop
 		- Mobile (native/PWA)
-		- Desktop
-		- Offline/low-bandwidth behavior
-		- Installability
-- Collaboration, Delivery, Governance
-	- Collaboration safety
-		- Multi-user editing
-		- Conflict handling
-		- Change history/rollback
-		- Auditability of configuration changes
+		- Offline/low-bandwidth behavior and installability
+- Analytics & AI
+	- Analytics
+		- Built-in reporting and dashboards
+		- Export/embedding and data warehouse connectivity
+		- Monitoring/alerting hooks
+	- AI assistance
+		- Copilot-style building (schema, UI, workflow suggestions)
+		- Prompting and automation generation
+		- Safety/guardrails and content controls
+	- Model integration
+		- External LLM calls and cost controls
+		- Embeddings/vector search
+		- Fine-tuning/grounding and eval tooling
+- Operations & Resilience
+	- Performance and scale
+		- Latency and cold-start behavior
+		- Caching/CDN and edge options
+		- Noisy-neighbor protections and multi-tenant isolation
+	- Reliability
+		- Uptime/SLA and track record
+		- Maintenance windows and throttling under load
+		- Degradation modes and offline behavior
+	- Resilience and DR
+		- Backups and restores
+		- RPO/RTO commitments
+		- Cross-region redundancy and failover
+- Delivery, Change, Quality
 	- Environments and release
-		- Branching
-		- Review/deploy workflows
-		- Preview links
-		- Release approvals
-		- Separation of duties
-	- Quality practices
-		- Unit/integration/UI testing hooks
-		- CI/CD integration
-		- Feature flags/safe rollout patterns
-	- Guardrails and reuse
-		- Policies
-		- Reusable templates/blocks
-		- Linting or policy-as-code for compliance
-- AI & Assistance
-	- AI copilots
-		- Schema suggestions
-		- UI generation
-		- Promptable workflows
-	- Model support
-		- Text/vision embeddings
-		- Calling external LLMs
-		- Fine-tuning/grounding options
-		- Safety controls
-- Commercials & Ecosystem
-	- Pricing and TCO
-		- Seat/usage/record/ops models
-		- Overage risks
-		- Required add-ons/hidden costs
-		- Migration/exit costs/contract terms
-	- Marketplace and support
-		- Template depth
-		- Community health
-		- Docs quality
-		- Support tiers/SLAs/responsiveness
-	- Open-source posture
-		- License/self-host maturity
-		- Upgrade path
-		- Cloud vs. OSS gaps
-		- Maintenance cadence
+		- Dev/stage/prod separation and promotion
+		- Branching/preview links
+		- Approvals, SoD, and release policies
+	- Quality and testing
+		- Unit/integration/UI test support
+		- CI/CD hooks
+		- Feature flags and progressive rollout
+	- Change governance
+		- Change history/versioning
+		- Configuration auditability
+		- Guardrails/policy-as-code and linting
+- Implementation & Adoption
+	- Onboarding
+		- Setup guides and quick starts
+		- Data/asset migration tooling
+		- Template/catalog availability
+	- Training and enablement
+		- Learning paths and certifications
+		- Citizen developer safeguards
+		- Community and peer resources
+	- Support model
+		- Support tiers/SLAs
+		- Responsiveness and escalation
+		- Dedicated TAM/solutions architect options
+- Vendor Viability & Risk
+	- Financial and operational health
+		- Funding/profitability signals
+		- Headcount/engineering investment
+		- Roadmap stability vs. pivots
+	- Ecosystem posture
+		- Marketplace depth
+		- Partner and SI network
+		- Open-source vs. closed approach
+	- Exit and portability
+		- Data/asset export paths
+		- Migration tooling and services
+		- Contractual protections and lock-in mitigations
+- Commercials & TCO
+	- Pricing model
+		- Seat/usage/ops/record-based pricing
+		- Overage and throttling behaviors
+		- Required add-ons and hidden costs
+	- Total cost
+		- Infra/runtime charges (self-host)
+		- Support/TAM/pro services
+		- Customization and extension costs
+	- Procurement fit
+		- Contract terms and renewals
+		- Compliance with procurement policies
+		- Negotiation levers and volume discounts

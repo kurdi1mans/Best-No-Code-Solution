@@ -29,6 +29,10 @@
 - [Stackby](stackby.md)
 - [Fibery](fibery.md)
 - [ClickUp Tables](clickup-tables.md)
+- [Grist](grist.md)
+- [Rowy](rowy.md)
+- [Directus](directus.md)
+- [Saltcorn](saltcorn.md)
 
 ## Automation & Integration
 - [Zapier](zapier.md)
@@ -39,6 +43,8 @@
 ## Internal Tools
 - [Retool](retool.md)
 - [Appsmith](appsmith.md)
+- [Budibase](budibase.md)
+- [Forest Admin](forest-admin.md)
 
 ## Commerce
 - [Shopify](shopify.md)

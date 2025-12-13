@@ -77,6 +77,14 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Visual builders vs. code-first
 		- Branching/looping/state patterns
 		- Component reuse and design systems
+	- Human workflow steps
+		- Approvals, reviews, and handoffs
+		- SLAs/escalations and reminders
+		- Inbox/tasks UX and delegation
+	- Autonomous and integrated steps
+		- System-triggered actions and scheduling
+		- Third-party integrations invoked as steps
+		- Idempotency, retries, and failure handling for integrations
 	- Automation runtime
 		- Triggers/schedulers/background jobs
 		- Retries, idempotency, dead-letter handling

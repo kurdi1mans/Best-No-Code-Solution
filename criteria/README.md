@@ -2,67 +2,89 @@
 
 Use these criteria to assess each no-code/low-code platform. Do not start scoring yet.
 
-- **Use case fit**
-  - Primary strengths (web app, mobile, internal tools, automation, CMS, forms)
-  - Where it is a poor fit
-- **Data model & limits**
-  - Supported data types and relations
-  - Row/storage/throughput limits and API quotas
-- **Logic & workflows**
-  - Workflows, formulas, scripting model, triggers, background jobs
-  - Branching and complexity limits
-- **Integrations & extensibility**
-  - Native connectors, webhook/API quality, SDKs/plugins
-  - Ability to embed or run custom code
-- **Files & attachments**
-  - Upload/storage limits, supported types, CDN/performance
-  - Versioning, inline preview, access controls, and virus scanning
-- **Hosting & control**
-  - SaaS vs. self-host, data residency, backups/exports
-  - Vendor lock-in considerations and migration paths
-- **Access control**
-  - Roles, row/field-level permissions, sharing/link settings
-  - Environment scoping and builder control over data access
-- **Authentication**
-  - Native auth, SSO/OIDC/SAML, SCIM, MFA
-  - Session management and user provisioning flows
-- **Encryption**
-  - In-transit and at-rest defaults
-  - Key management (KMS/BYOK) and data isolation options
-- **Security & governance**
-  - Audit logs, backups/retention, policy enforcement
-  - Environment management, incident posture, and secrets handling
-- **Performance & reliability**
-  - Runtime performance, caching/CDN, cold starts, scaling behavior
-  - Uptime/SLA and reliability track record
-- **Views & UI flexibility**
-  - View types (grid/kanban/calendar/Gantt/gallery/map/hierarchical/tree/etc.)
-  - Column/view customization, filters/sorting/grouping, conditional formatting
-  - Responsive behavior and ability to build custom views/components
-- **Transactional integrity**
-  - ACID support, concurrency control, isolation levels
-  - Rollback/undo and suitability for financial/banking-grade consistency
-- **Collaboration & versioning**
-  - Multi-user editing, change history, branching/environments
-  - Review/deploy workflows and merge conflict handling
-- **Design & UX flexibility**
-  - Theming, component quality, responsive controls
-  - Accessibility support and localization/i18n
-- **Analytics & observability**
-  - Built-in analytics/logs, error tracking, monitoring
-  - Alerting hooks and export options
-- **Pricing & TCO**
-  - Plan model (seats/usage/records/ops) and overage risks
-  - Required add-ons and migration/exit costs
-- **Ecosystem & support**
-  - Marketplace depth, templates, community health
-  - Documentation quality, SLAs, and support tiers
-- **Open-source posture**
-  - License, self-host maturity, and upgrade path
-  - Community health and feature gaps vs. cloud editions
-- **Compliance & data residency**
-  - Certifications (SOC2, ISO, HIPAA), DPAs, and region choices
-  - Data portability and retention controls
-- **Deployment targets**
-  - Web, mobile (native/PWA), desktop, or API-only
-  - App store readiness where relevant
+- **Fit & modeling**
+  - **Use case fit**
+    - Primary strengths: web app, mobile, internal tools, automation, CMS, forms
+    - Poor-fit scenarios and constraints
+  - **Data model & limits**
+    - Supported data types/relations; schema flexibility
+    - Row/storage/throughput limits and API quotas
+    - Import/export and migration tooling
+  - **Views & UI flexibility**
+    - View types: grid/kanban/calendar/Gantt/gallery/map/hierarchical/tree/etc.
+    - Column/view customization: filters/sorting/grouping, conditional formatting
+    - Responsive behavior and custom views/components
+  - **Transactional integrity**
+    - ACID support and isolation levels
+    - Concurrency control and locking
+    - Rollback/undo for financial/banking-grade consistency
+- **Logic, integrations, and files**
+  - **Logic & workflows**
+    - Workflow builders, formulas, scripting model
+    - Triggers/background jobs/schedulers
+    - Branching/looping complexity limits
+  - **Integrations & extensibility**
+    - Native connectors, webhook/API quality
+    - SDKs/plugins and custom code options
+    - Rate limits and throttling
+  - **Files & attachments**
+    - Upload/storage limits and supported types
+    - CDN/performance and regional storage
+    - Versioning, inline preview, access controls, virus scanning
+- **Security, identity, and compliance**
+  - **Access control**
+    - Roles and row/field-level permissions
+    - Sharing/link settings and environment scoping
+    - Builder control over data access policy
+  - **Authentication**
+    - Native auth, SSO/OIDC/SAML, SCIM, MFA
+    - Session management, user provisioning/lifecycle
+    - Passwordless/social options
+  - **Encryption**
+    - In-transit and at-rest defaults
+    - Key management (KMS/BYOK) and data isolation
+  - **Security & governance**
+    - Audit logs, backups/retention, policy enforcement
+    - Environment management, incident posture
+    - Secrets handling and least-privilege patterns
+  - **Compliance & data residency**
+    - Certifications (SOC2, ISO, HIPAA), DPAs, region choices
+    - Data portability and retention controls
+    - Residency/configuration options (self-host/SaaS regions)
+- **Performance & delivery**
+  - **Performance & reliability**
+    - Runtime performance, caching/CDN, cold starts
+    - Scaling behavior and multi-tenant isolation
+    - Uptime/SLA and reliability track record
+  - **Analytics & observability**
+    - Built-in analytics/logs, error tracking, monitoring
+    - Alerting hooks, exports, and third-party integration
+  - **Collaboration & versioning**
+    - Multi-user editing and change history
+    - Branching/environments and review/deploy workflows
+    - Merge conflict handling and rollback
+  - **Hosting & control**
+    - SaaS vs. self-host options; data residency and backups/exports
+    - Vendor lock-in and migration paths
+    - Infrastructure choices and sandboxing environments
+  - **Deployment targets**
+    - Web, mobile (native/PWA), desktop, or API-only
+    - App store readiness and packaging paths
+- **UX and front-end**
+  - **Design & UX flexibility**
+    - Theming and component quality
+    - Responsive controls and layout systems
+    - Accessibility support and localization/i18n
+- **Commercials and ecosystem**
+  - **Pricing & TCO**
+    - Plan model (seats/usage/records/ops) and overage risks
+    - Required add-ons and hidden costs
+    - Migration/exit costs and contract terms
+  - **Ecosystem & support**
+    - Marketplace depth, templates, community health
+    - Documentation quality and learning resources
+    - SLAs, support tiers, and responsiveness
+  - **Open-source posture**
+    - License and self-host maturity
+    - Upgrade path and maintenance cadence
+    - Community health and cloud vs. OSS feature gaps

@@ -27,14 +27,25 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Constraints, uniqueness, referential integrity
 	- Data lifecycle
 		- Import/export quality (CSV/JSON/API), bulk operations
-		- Retention, archival, purge and legal hold
+		- Retention, archival, purge policies
 		- Backups, restores, portability
+	- Legal hold and eDiscovery
+		- Legal hold workflows and scoped freezes
+		- Export formats and chain-of-custody
+		- Searchability and audit of access
+	- Data lineage and provenance
+		- Source and transform history
+		- Field-level vs. record-level lineage and impact analysis
+		- Who changed what and when; lineage visibility/export in UI/API
 	- Files and attachments
 		- File/image fields and size/type limits
 		- Virus scanning, DLP, and CDN/storage handling
+		- BYO storage vs. vendor storage; regional pinning; client-side vs. server-side encryption
 		- Transformations/thumbnails, metadata/EXIF handling, downloads/expiry controls
 	- Computation and rules
 		- Formula/rule language breadth and reuse
+		- Versioning of formulas/rules and dry-run/testing modes
+		- Guardrails for long-running/expensive calculations
 		- Conditional formulas, lookups, rollups/aggregations
 		- Date math and range comparisons
 		- Bi-directional bindings and reactive updates
@@ -49,10 +60,15 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Batch sync and scheduling
 		- Change data capture
 		- Message bus/queue support and idempotency
+		- Throughput/backpressure handling and throttling behaviors
 	- External extensibility
 		- Embedding in other apps
 		- Custom actions/jobs on external runtimes
 		- Marketplace/template reuse
+	- Contracts and validation
+		- Schema/typing and payload validation
+		- Replay/poison-queue handling
+		- Error contracts and retry semantics
 - Identity & Access
 	- Authentication
 		- Native users
@@ -62,10 +78,12 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- RBAC/ABAC models
 		- Row/field-level controls and masking
 		- Sharing links, scopes, time-bound access
+		- Masking/redaction in logs and exports
 	- Session and lifecycle
 		- Provisioning/deprovisioning
 		- Session management and expiry
 		- Delegation/approval flows for elevated access
+		- Step-up authentication for sensitive actions
 - Security, Privacy, Compliance
 	- Core security
 		- Encryption in-transit/at-rest, key management (KMS/BYOK)
@@ -79,6 +97,7 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Audit trails and evidence export
 		- Policy enforcement and guardrails for makers
 		- Incident response and vulnerability management
+		- Supply-chain security (SBOMs, signed builds, pen test cadence)
 - Workflow, Automation, App Dev
 	- Development model
 		- Visual builders vs. code-first
@@ -87,7 +106,8 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 	- Human workflow steps
 		- Approvals, reviews, and handoffs
 		- SLAs/escalations and reminders
-		- Inbox/tasks UX and delegation
+		- Inbox/tasks UX and delegation; bulk approvals/queues
+		- Timeout/fallback behaviors when steps stall
 	- Autonomous and integrated steps
 		- System-triggered actions and scheduling
 		- Third-party integrations invoked as steps
@@ -121,7 +141,8 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 	- AI assistance
 		- Copilot-style building (schema, UI, workflow suggestions)
 		- Prompting and automation generation
-		- Safety/guardrails and content controls
+		- Safety/guardrails and content controls; PII handling in prompts
+		- Observability and rollback for AI-generated changes
 	- Model integration
 		- External LLM calls and cost controls
 		- Embeddings/vector search
@@ -131,6 +152,7 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Latency and cold-start behavior
 		- Caching/CDN and edge options
 		- Noisy-neighbor protections and multi-tenant isolation
+		- Regional latency controls
 	- Reliability
 		- Uptime/SLA and track record
 		- Maintenance windows and throttling under load
@@ -143,7 +165,8 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 	- Environments and release
 		- Dev/stage/prod separation and promotion
 		- Branching/preview links
-		- Approvals, SoD, and release policies
+		- Approvals, SoD, and release policies; promotion gates/tests
+		- Drift detection between environments
 	- Quality and testing
 		- Unit/integration/UI test support
 		- CI/CD hooks

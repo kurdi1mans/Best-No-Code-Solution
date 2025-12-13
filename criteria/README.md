@@ -3,47 +3,190 @@
 Use these prompts to assess each no-code/low-code platform. Keep notes concise and vendor-neutral; no scoring yet.
 
 - Data & Modeling
-	- Data model limits: record/field limits, schema evolution, migrations, import/export quality (CSV/JSON/API), bulk ops performance
-	- Data types: text/number/decimal, regex/validation, rich content, attachments (single/multi), images/files, geo, array/object, enums
-	- Data quality: constraints, uniqueness, referential integrity, dedupe/merge support
-	- Computation: formula language depth (string/date/array), cross-table lookups, reusable functions/components, debugging/tracing
-	- Evaluation behavior: recalculation timing, dependency handling, eventual vs. strong consistency impacts on UX and reports
+	- Data model limits
+		- Record/field limits
+		- Schema evolution and migrations
+		- Bulk operations
+		- Import/export (CSV/JSON/API)
+	- Data types
+		- Text, number, decimal
+		- Regex and validation rules
+		- Rich content
+		- Attachments (single/multi)
+		- Images and files
+		- Geo types
+		- Array/object structures
+		- Enums
+	- Data quality
+		- Constraints and uniqueness
+		- Referential integrity
+		- Dedupe/merge support
+	- Computation
+		- Formula language depth (string/date/array)
+		- Cross-table lookups
+		- Reusable functions/components
+		- Debugging/tracing
+	- Evaluation behavior
+		- Recalculation timing
+		- Dependency handling
+		- Eventual vs. strong consistency impacts on UX and reports
 - Logic, Workflows, Automation
-	- Builders and paradigms: visual vs. code-first scripting, branching/looping/state management complexity
-	- Triggers/background jobs/schedulers; human-in-the-loop steps and SLAs
-	- Integrations as workflow steps; retries, idempotency, dead-letter handling, observability for runs
-	- Transactionality: ACID/isolation, concurrency/locking, rollback/undo options, compensation patterns
+	- Builders and paradigms
+		- Visual vs. code-first scripting
+		- Branching/looping complexity
+		- State management
+	- Triggers and human steps
+		- Background jobs and schedulers
+		- SLAs for approvals/handoffs
+	- Automation reliability
+		- Retries
+		- Idempotency
+		- Dead-letter handling
+		- Run observability
+	- Transactionality
+		- ACID/isolation
+		- Concurrency/locking
+		- Rollback/undo options
+		- Compensation patterns
 - Integrations & Extensibility
-	- Connectors/APIs: native connectors, REST/GraphQL quality, webhooks, rate limits/quotas, auth patterns (API keys/OAuth/service accounts)
-	- Data movement: sync cadence, change data capture, event streaming/message bus support
-	- Extensibility: SDKs/plugins, custom components/actions, middleware hooks, packaging/sharing across projects
+	- Connectors and APIs
+		- Native connectors
+		- REST/GraphQL quality
+		- Webhooks
+		- Rate limits/quotas
+		- Auth patterns (API keys/OAuth/service accounts)
+	- Data movement
+		- Sync cadence
+		- Change data capture
+		- Event streaming/message bus support
+	- Extensibility
+		- SDKs/plugins
+		- Custom components/actions
+		- Middleware hooks
+		- Packaging/sharing across projects
 - Identity & Access
-	- Auth: native auth, SSO/OIDC/SAML, SCIM, MFA, passwordless/social; delegated/consent flows
-	- Session/user lifecycle: provisioning, suspension, expiration, session management
-	- Authorization: RBAC/ABAC, row/field-level controls, share links and scoping, approval flows for elevated access
+	- Authentication
+		- Native auth
+		- SSO/OIDC/SAML
+		- SCIM
+		- MFA
+		- Passwordless/social
+		- Delegated/consent flows
+	- Session and lifecycle
+		- Provisioning
+		- Suspension
+		- Expiration
+		- Session management
+	- Authorization
+		- RBAC/ABAC
+		- Row/field-level controls
+		- Share links and scoping
+		- Approval flows for elevated access
 - Security & Compliance
-	- Encryption: in-transit/at-rest defaults, key management (KMS/BYOK), tenant isolation
-	- Governance: audit logs, backups/retention, policy enforcement, secret handling, incident posture, admin controls/guardrails for citizen devs
-	- Compliance/residency: SOC2/ISO/HIPAA, DPAs, data residency choices, portability/retention controls, self-host/SaaS region options
-	- DR/BCP: backups, restores, RPO/RTO clarity, cross-region redundancy
+	- Encryption and isolation
+		- In-transit/at-rest defaults
+		- Key management (KMS/BYOK)
+		- Tenant isolation
+	- Governance and guardrails
+		- Audit logs
+		- Backups/retention
+		- Policy enforcement
+		- Secret handling
+		- Incident posture
+		- Admin controls for citizen devs
+	- Compliance and residency
+		- SOC2/ISO/HIPAA
+		- DPAs
+		- Data residency choices
+		- Portability/retention controls
+		- Self-host/SaaS region options
+	- Resilience
+		- DR/BCP posture
+		- Backups/restores
+		- RPO/RTO clarity
+		- Cross-region redundancy
 - Performance & Operations
-	- Runtime: latency, caching/CDN, cold starts, scaling behavior and multi-tenant isolation, noisy-neighbor protections
-	- Reliability: uptime/SLA track record, maintenance windows, throttling behavior under load, offline/degeneration behavior
-	- Observability: built-in analytics/logs, tracing/error monitoring, alerting hooks and exports
-	- Hosting/control: SaaS vs. self-host, infra choices, sandbox environments, vendor lock-in, migration paths/tooling
+	- Runtime and scale
+		- Latency
+		- Caching/CDN
+		- Cold starts
+		- Scaling behavior and multi-tenant isolation
+		- Noisy-neighbor protections
+	- Reliability
+		- Uptime/SLA track record
+		- Maintenance windows
+		- Throttling behavior under load
+		- Offline/degeneration behavior
+	- Observability
+		- Built-in analytics/logs
+		- Tracing/error monitoring
+		- Alerting hooks and exports
+	- Hosting and control
+		- SaaS vs. self-host
+		- Infra choices
+		- Sandbox environments
+		- Vendor lock-in
+		- Migration paths/tooling
 - UI/UX & App Experience
-	- View types: grid/kanban/calendar/Gantt/gallery/map/tree, filters/sort/group, conditional formatting
-	- Layout/theming: responsive controls, component quality, styling/theme options/design tokens, localization/i18n, accessibility support
-	- Surfaces: web, mobile (native/PWA), desktop; offline/low-bandwidth behavior, installability
+	- View types
+		- Grid/kanban/calendar/Gantt/gallery/map/tree
+		- Filters/sort/group
+		- Conditional formatting
+	- Layout and theming
+		- Responsive controls
+		- Component quality
+		- Styling/theme options/design tokens
+		- Localization/i18n
+		- Accessibility support
+	- Surfaces
+		- Web
+		- Mobile (native/PWA)
+		- Desktop
+		- Offline/low-bandwidth behavior
+		- Installability
 - Collaboration, Delivery, Governance
-	- Multi-user editing: conflict handling, change history/rollback, auditability of configuration changes
-	- Environments: branching, review/deploy workflows, preview links, release approvals/separation of duties
-	- Testing/quality: unit/integration/UI testing hooks, CI/CD integration, feature flags/safe rollout patterns
-	- Guardrails/templates: policies, reusable templates/blocks, linting or policy-as-code to keep citizen devs compliant
+	- Collaboration safety
+		- Multi-user editing
+		- Conflict handling
+		- Change history/rollback
+		- Auditability of configuration changes
+	- Environments and release
+		- Branching
+		- Review/deploy workflows
+		- Preview links
+		- Release approvals
+		- Separation of duties
+	- Quality practices
+		- Unit/integration/UI testing hooks
+		- CI/CD integration
+		- Feature flags/safe rollout patterns
+	- Guardrails and reuse
+		- Policies
+		- Reusable templates/blocks
+		- Linting or policy-as-code for compliance
 - AI & Assistance
-	- AI copilots/builders: schema suggestions, UI generation, promptable workflows
-	- Model support: text/vision embeddings, calling external LLMs, fine-tuning/grounding options, safety controls
+	- AI copilots
+		- Schema suggestions
+		- UI generation
+		- Promptable workflows
+	- Model support
+		- Text/vision embeddings
+		- Calling external LLMs
+		- Fine-tuning/grounding options
+		- Safety controls
 - Commercials & Ecosystem
-	- Pricing/TCO: seat/usage/record/ops models, overage risks, required add-ons/hidden costs, migration/exit costs/contract terms
-	- Marketplace/support: template depth, community health, docs quality, support tiers/SLAs/responsiveness
-	- Open-source posture: license/self-host maturity, upgrade path, cloud vs. OSS gaps, maintenance cadence
+	- Pricing and TCO
+		- Seat/usage/record/ops models
+		- Overage risks
+		- Required add-ons/hidden costs
+		- Migration/exit costs/contract terms
+	- Marketplace and support
+		- Template depth
+		- Community health
+		- Docs quality
+		- Support tiers/SLAs/responsiveness
+	- Open-source posture
+		- License/self-host maturity
+		- Upgrade path
+		- Cloud vs. OSS gaps
+		- Maintenance cadence

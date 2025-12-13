@@ -2,11 +2,15 @@
 
 Use these criteria to assess each no-code/low-code platform. Do not start scoring yet.
 
-- **Data Types Support**
+- **Architecture & data**
   - **Data model & limits**
     - Supported data types/relations; schema flexibility
     - Row/storage/throughput limits and API quotas
     - Import/export and migration tooling
+  - **Formulas & computed fields**
+    - Formula language capability: function breadth (string/date/array), cross-table references/lookups, reusable functions/components
+    - Type system, error handling, and debugging/tracing tools
+    - Evaluation behavior: recalculation timing, dependencies, and performance on large datasets
   - **Files & attachments**
     - Upload/storage limits and supported types
     - CDN/performance and regional storage
@@ -16,17 +20,22 @@ Use these criteria to assess each no-code/low-code platform. Do not start scorin
     - ACID support and isolation levels
     - Concurrency control and locking
     - Rollback/undo for financial/banking-grade consistency
-  - **Logic & workflows**
-    - Workflow builders, formulas, scripting model
+  - **Workflows & automation**
+    - Workflow builders and scripting model; visual vs. code-first paradigms
     - Triggers/background jobs/schedulers
-    - Branching/looping complexity limits
-  - **Integrations & extensibility**
-    - Native connectors, webhook/API quality
-    - SDKs/plugins and custom code options
-    - Rate limits and throttling
+    - Branching/looping complexity limits and state management
   - **Deployment targets**
     - Web, mobile (native/PWA), desktop, or API-only
     - App store readiness and packaging paths
+- **Integrations & extensibility**
+  - **Connectors & APIs**
+    - Native connectors, webhook/API quality, GraphQL/REST support
+    - Rate limits, throttling, and quotas
+    - Authentication patterns for integrations (API keys, OAuth)
+  - **Extensibility**
+    - SDKs/plugins, custom components/actions, and scripting
+    - Webhooks, events, and middleware hooks
+    - Packaging/sharing of extensions across projects
 - **Security, identity, and compliance**
   - **Authentication**
     - Native auth, SSO/OIDC/SAML, SCIM, MFA

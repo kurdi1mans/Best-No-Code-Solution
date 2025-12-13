@@ -31,6 +31,9 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Backups, restores, portability
 	- Computation and rules
 		- Formula/rule language breadth and reuse
+		- Conditional formulas, lookups, rollups/aggregations
+		- Date math and range comparisons
+		- Bi-directional bindings and reactive updates
 		- Tracing/debugging and error handling
 		- Evaluation timing, dependency resolution, consistency model
 - Integration & Interoperability

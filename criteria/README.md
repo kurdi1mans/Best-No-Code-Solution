@@ -14,6 +14,9 @@ Use these criteria to assess each no-code/low-code platform. Do not start scorin
 - **Integrations & extensibility**
   - Native connectors, webhook/API quality, SDKs/plugins
   - Ability to embed or run custom code
+- **Files & attachments**
+  - Upload/storage limits, supported types, CDN/performance
+  - Versioning, inline preview, access controls, and virus scanning
 - **Hosting & control**
   - SaaS vs. self-host, data residency, backups/exports
   - Vendor lock-in considerations and migration paths

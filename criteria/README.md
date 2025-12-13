@@ -29,6 +29,10 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Import/export quality (CSV/JSON/API), bulk operations
 		- Retention, archival, purge and legal hold
 		- Backups, restores, portability
+	- Files and attachments
+		- File/image fields and size/type limits
+		- Virus scanning, DLP, and CDN/storage handling
+		- Transformations/thumbnails, metadata/EXIF handling, downloads/expiry controls
 	- Computation and rules
 		- Formula/rule language breadth and reuse
 		- Conditional formulas, lookups, rollups/aggregations

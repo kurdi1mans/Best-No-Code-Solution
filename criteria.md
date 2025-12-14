@@ -2,24 +2,6 @@
 
 Use these prompts to assess each no-code/low-code platform. Keep notes concise and vendor-neutral; no scoring yet.
 
-- Strategy & Business Fit
-	- Target outcomes and scope
-		- Priority use cases and personas
-		- Fit-gap vs. existing systems and processes
-		- KPI alignment and measurability
-	- Product maturity
-		- Release cadence and roadmap transparency
-		- Reference customers/industries
-		- Partner ecosystem depth
-- Architecture & Extensibility
-	- Platform architecture
-		- Multi-tenant vs. single-tenant options
-		- Modularity and plugin model
-		- API-first posture and versioning
-	- Extension model
-		- SDKs/plugins/components
-		- Middleware/hooks/events
-		- Packaging/sharing across environments or orgs
 - Data & Information Management
 	- Data modeling
 		- Record/field limits, schema evolution, migrations
@@ -29,10 +11,6 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Import/export quality (CSV/JSON/API), bulk operations
 		- Retention, archival, purge policies
 		- Backups, restores, portability
-	- Legal hold and eDiscovery
-		- Legal hold workflows and scoped freezes
-		- Export formats and chain-of-custody
-		- Searchability and audit of access
 	- Data lineage and provenance
 		- Source and transform history
 		- Field-level vs. record-level lineage and impact analysis
@@ -51,6 +29,28 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Bi-directional bindings and reactive updates
 		- Tracing/debugging and error handling
 		- Evaluation timing, dependency resolution, consistency model
+- Workflow, Automation, App Dev
+	- Development model
+		- Visual builders vs. code-first
+		- Branching/looping/state patterns
+		- Component reuse and design systems
+	- Human workflow steps
+		- Approvals, reviews, and handoffs
+		- SLAs/escalations and reminders
+		- Inbox/tasks UX and delegation; bulk approvals/queues
+		- Timeout/fallback behaviors when steps stall
+	- Autonomous and integrated steps
+		- System-triggered actions and scheduling
+		- Third-party integrations invoked as steps
+		- Idempotency, retries, and failure handling for integrations
+	- Automation runtime
+		- Triggers/schedulers/background jobs
+		- Retries, idempotency, dead-letter handling
+		- Run observability and debugging
+	- Transactionality
+		- ACID/isolation guarantees
+		- Concurrency/locking behavior
+		- Rollback/undo and compensating actions
 - Integration & Interoperability
 	- Connectors and interfaces
 		- Native connectors coverage
@@ -98,28 +98,6 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Policy enforcement and guardrails for makers
 		- Incident response and vulnerability management
 		- Supply-chain security (SBOMs, signed builds, pen test cadence)
-- Workflow, Automation, App Dev
-	- Development model
-		- Visual builders vs. code-first
-		- Branching/looping/state patterns
-		- Component reuse and design systems
-	- Human workflow steps
-		- Approvals, reviews, and handoffs
-		- SLAs/escalations and reminders
-		- Inbox/tasks UX and delegation; bulk approvals/queues
-		- Timeout/fallback behaviors when steps stall
-	- Autonomous and integrated steps
-		- System-triggered actions and scheduling
-		- Third-party integrations invoked as steps
-		- Idempotency, retries, and failure handling for integrations
-	- Automation runtime
-		- Triggers/schedulers/background jobs
-		- Retries, idempotency, dead-letter handling
-		- Run observability and debugging
-	- Transactionality
-		- ACID/isolation guarantees
-		- Concurrency/locking behavior
-		- Rollback/undo and compensating actions
 - User Experience & Channels
 	- Interface capabilities
 		- View types (grid/kanban/calendar/Gantt/gallery/map/tree)
@@ -201,7 +179,11 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Data/asset export paths
 		- Migration tooling and services
 		- Contractual protections and lock-in mitigations
-- Commercials & TCO
+- Legal Hold, eDiscovery, Commercials & TCO
+	- Legal hold and eDiscovery
+		- Legal hold workflows and scoped freezes
+		- Export formats and chain-of-custody
+		- Searchability and audit of access
 	- Pricing model
 		- Seat/usage/ops/record-based pricing
 		- Overage and throttling behaviors

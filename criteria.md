@@ -29,6 +29,8 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Bi-directional bindings and reactive updates
 		- Tracing/debugging and error handling
 		- Evaluation timing, dependency resolution, consistency model
+	- Versioning
+		- field/record versioning
 - Workflow, Automation, App Dev
 	- Development model
 		- Visual builders vs. code-first
@@ -84,20 +86,8 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Session management and expiry
 		- Delegation/approval flows for elevated access
 		- Step-up authentication for sensitive actions
-- Security, Privacy, Compliance
-	- Core security
-		- Encryption in-transit/at-rest, key management (KMS/BYOK)
-		- Tenant isolation and data boundary controls
-		- Secrets handling and secure storage
-	- Privacy and compliance
-		- GDPR/CCPA/SOC2/ISO/HIPAA posture and DPAs
-		- Data residency/sovereignty options
-		- Data subject rights, retention/erasure controls
-	- Governance and risk
-		- Audit trails and evidence export
-		- Policy enforcement and guardrails for makers
-		- Incident response and vulnerability management
-		- Supply-chain security (SBOMs, signed builds, pen test cadence)
+- Auditability
+	- Audit trails and evidence export
 - User Experience & Channels
 	- Interface capabilities
 		- View types (grid/kanban/calendar/Gantt/gallery/map/tree)
@@ -149,10 +139,19 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 		- Unit/integration/UI test support
 		- CI/CD hooks
 		- Feature flags and progressive rollout
-	- Change governance
-		- Change history/versioning
-		- Configuration auditability
-		- Guardrails/policy-as-code and linting
+- Security, Privacy, Compliance
+	- Core security
+		- Encryption in-transit/at-rest, key management (KMS/BYOK)
+		- Tenant isolation and data boundary controls
+		- Secrets handling and secure storage
+	- Privacy and compliance
+		- GDPR/CCPA/SOC2/ISO/HIPAA posture and DPAs
+		- Data residency/sovereignty options
+		- Data subject rights, retention/erasure controls
+	- Governance and risk
+		- Policy enforcement and guardrails for makers
+		- Incident response and vulnerability management
+		- Supply-chain security (SBOMs, signed builds, pen test cadence)
 - Implementation & Adoption
 	- Onboarding
 		- Setup guides and quick starts
@@ -183,7 +182,6 @@ Use these prompts to assess each no-code/low-code platform. Keep notes concise a
 	- Legal hold and eDiscovery
 		- Legal hold workflows and scoped freezes
 		- Export formats and chain-of-custody
-		- Searchability and audit of access
 	- Pricing model
 		- Seat/usage/ops/record-based pricing
 		- Overage and throttling behaviors
